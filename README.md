@@ -206,11 +206,10 @@ These are preliminary analytical recommendations, not validated operational rule
 
 ## 10. Project Files
 
-| File | Description |
+| **File** | **Description** |
 |---|---|
-| `Financial_Fraud_Detection.ipynb` | Data preparation, feature engineering, model development, evaluation, threshold optimisation and SHAP explainability |
-| `Fraud_Loss_Investigation_Analysis.ipynb` | Fraud distribution, transaction analysis, time-step investigation, balance movements and business recommendations |
-
+| [Financial_Fraud_Detection.ipynb](Financial_Fraud_Detection.ipynb) | Data preparation, feature engineering, model development, evaluation, threshold optimisation and SHAP explainability |
+| [Fraud_Loss_Investigation_Analysis.ipynb](Fraud_Loss_Investigation_Analysis.ipynb) | Fraud distribution, transaction analysis, time-step investigation, balance movements and business recommendations |
 ## 11. How to Run the Project
 
 1. Clone or download this repository.
@@ -237,3 +236,45 @@ The machine learning work demonstrates the challenges of detecting rare fraudule
 The investigation analysis identifies patterns across transaction types, transaction values, time periods and account balance movements, providing a preliminary framework for prioritising further investigation.
 
 The key takeaway is that effective fraud analytics requires more than a high accuracy score. It requires balancing fraud detection, false-positive workload, financial exposure and the practical needs of investigation teams.
+
+---
+
+## 📊 Visual Results
+
+The following visualisations highlight the key findings from the fraud detection models and investigation analysis.
+
+### A. Fraud Detection & Machine Learning
+
+**1. Fraud Class Distribution**
+
+![Fraud Class Distribution](images/01_fraud_class_distribution.png)
+
+**2. Fraud by Transaction Type**
+
+![Fraud by Transaction Type](images/02_fraud_by_transaction_type.png)
+
+**3. XGBoost Confusion Matrix**
+
+![XGBoost Confusion Matrix](images/03_xgboost_confusion_matrix.png)
+
+**4. XGBoost Precision-Recall Curve**
+
+![XGBoost Precision Recall Curve](images/04_xgboost_precision_recall_curve.png)
+
+**5. SHAP Summary Plot**
+
+![SHAP Summary](images/05_shap_summary.png)
+
+### B. Fraud Loss & Investigation Intelligence
+
+**6. Fraud Count by Transaction-Volume Category**
+
+![Fraud Count by Volume Category](images/06_fraud_count_by_volume_category.png)
+
+**7. Fraud-Associated Transaction Value by Volume Category**
+
+![Fraud Associated Value by Volume Category](images/07_fraud_associated_value_by_volume_category.png)
+
+**8. Recipient Balance Movement by Fraud Type**
+
+![Recipient Balance Movement](images/08_recipient_balance_movement_by_fraud_type.png)
