@@ -247,7 +247,7 @@ The following visualisations highlight the key findings from the fraud detection
 
 **1. Fraud Class Distribution**
 
-![Fraud Class Distribution](images/01_fraud_class_distribution.png)
+![Fraud Class Distribution](images/01_Financial%20Transaction%20Class%20Imbalance.png)
 
 **2. Fraud by Transaction Type**
 
