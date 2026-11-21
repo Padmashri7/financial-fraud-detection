@@ -210,24 +210,7 @@ These are preliminary analytical recommendations, not validated operational rule
 |---|---|
 | [Financial_Fraud_Detection.ipynb](Financial_Fraud_Detection.ipynb) | Data preparation, feature engineering, model development, evaluation, threshold optimisation and SHAP explainability |
 
-## 11. How to Run the Project
-
-1. Clone or download this repository.
-2. Install the required Python libraries.
-3. Obtain the synthetic transaction dataset used in the notebooks.
-4. Place `Synthetic_Financial_datasets_log.csv` in the same working directory as the notebooks.
-5. Open the notebooks in Jupyter Notebook or JupyterLab.
-6. Run the cells in sequence.
-
-Install the main dependencies:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost shap jupyter
-```
-
-**Note:** The original CSV dataset is not included in this repository because of its large file size.
-
-## 12. Conclusion
+## 11. Conclusion
 
 This project combines predictive modelling with investigative data analysis to explore financial fraud from both a machine learning and business perspective.
 
@@ -239,7 +222,7 @@ The key takeaway is that effective fraud analytics requires more than a high acc
 
 ---
 
-## 📊 Visual Results
+## 12.📊 Visual Results
 
 The following visualisations highlight the key findings from the fraud detection models and investigation analysis.
 
