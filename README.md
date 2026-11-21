@@ -209,7 +209,7 @@ These are preliminary analytical recommendations, not validated operational rule
 | **File** | **Description** |
 |---|---|
 | [Financial_Fraud_Detection.ipynb](Financial_Fraud_Detection.ipynb) | Data preparation, feature engineering, model development, evaluation, threshold optimisation and SHAP explainability |
-| [Fraud_Loss_Investigation_Analysis.ipynb](Fraud_Loss_Investigation_Analysis.ipynb) | Fraud distribution, transaction analysis, time-step investigation, balance movements and business recommendations |
+
 ## 11. How to Run the Project
 
 1. Clone or download this repository.
